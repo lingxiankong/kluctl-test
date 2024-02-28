@@ -1,0 +1,4 @@
+deployments:
+  - path: app
+    vars:
+      - file: app/values-test.yaml

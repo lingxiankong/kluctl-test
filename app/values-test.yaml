@@ -1,0 +1,4 @@
+app:
+  image: monopole/hello:1
+  features:
+    enable_risky: false

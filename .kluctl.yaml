@@ -1,0 +1,10 @@
+discriminator: "my-app-{{ target.name }}"
+
+targets:
+  - name: local
+    context: kind-kind
+    args:
+      environment: dev
+
+args:
+  - name: environment
